@@ -1,0 +1,51 @@
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.shoes-display {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+h2{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shoe-card {
+    width: calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.shoe-card img {
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-container {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.shoes-display button {
+  background-color: #28a745;
+  border: none;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.shoes-display button:hover {
+  background-color: #218838;
+}
